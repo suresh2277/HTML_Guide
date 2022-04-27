@@ -196,24 +196,38 @@ footer {
   margin-bottom: 0;
 }
 
-.related-post {
+/* .related-post {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   gap: 15px;
-}
+} */
 
 .related-author {
   margin-bottom: 0;
 }
 
-.row {
+/* .row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
+} */
+
+/* article {
+  flex-grow: 1;
+  margin-bottom: 0;
+} */
+
+/*CSS Grid*/
+
+.container {
 }
 
 article {
-  flex-grow: 1;
-  margin-bottom: 0;
+}
+
+asie {
+}
+
+footer {
 }
