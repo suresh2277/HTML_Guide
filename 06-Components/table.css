@@ -13,9 +13,16 @@ table {
   width: 900px;
   margin: 100px auto;
   text-align: left;
-  border-collapse: collapse;
+  border: 1px solid #343a40;
+  border
 }
 
+th,
+td {
+  border: 1px solid #343a40;
+}
+
+/*
 thead tr {
   background-color: #087f5b;
   color: #e6fcf5;
@@ -36,4 +43,4 @@ tbody tr:nth-child(odd) {
 
 tr:nth-child(even) {
   background-color: #dee2e6;
-}
+} */
