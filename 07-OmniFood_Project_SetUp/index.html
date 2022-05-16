@@ -28,7 +28,9 @@
   </head>
   <body>
     <header class="header">
-      <img src="/img/omnifood-logo.png" class="logo" alt="Omnifood Logo" />
+      <a href="#"
+        ><img src="/img/omnifood-logo.png" class="logo" alt="Omnifood Logo"
+      /></a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -579,11 +581,40 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form">
-                <label for="full-name">Name</label>
-                <input type="text" id="full-name" placeholder="John Smith" />
-                <input type="email" placeholder="me@example.com" />
-                <button class="btn">Sign Up now</button>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Name</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear about us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose an option</option>
+                    <option value="friends">Friends & Family</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign Up now</button>
               </form>
             </div>
             <div
@@ -595,5 +626,23 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              src="/img/omnifood-logo.png"
+              class="logo"
+              alt="Omnifood Logo"
+            />
+          </a>
+        </div>
+        <div class="address-col">Address</div>
+        <div class="nav-col">Nav 1</div>
+        <div class="nav-col">Nav 2</div>
+        <div class="nav-col">Nav 3</div>
+      </div>
+    </footer>
   </body>
 </html>
